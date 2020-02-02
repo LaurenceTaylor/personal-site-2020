@@ -1,40 +1,40 @@
 html {
-    height: 100%;
-    background-image: url("../assets/backgrounds/1.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+  height: 100%;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .content {
+  font-family: helvetica, sans-serif;
+  color: white;
   background-color: black;
   padding: 20px;
   margin-top: 5%;
-  margin-left: 20%;
-  margin-right: -20px;
-  border: 5px solid #5bc0eb;
-}
-
-.title {
-    font-family: helvetica, sans-serif;
-    font-weight: bold;
-    color: white;
-    font-size: 20px;
-}
-
-.description {
-  font-family: helvetica, sans-serif;
-  color: white;
-  font-size: 16px;
+  margin-left: 8.09%;
+  margin-right: -10px;
 
   a {
-    text-decoration: none;
     color: white;
-    font-weight: bold;
+    text-decoration: none;
   }
 
   a:hover {
-    color: #5bc0eb;
+    color: #fde74c;
+  }
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.description {
+  font-size: 16px;
+
+  a {
+    font-weight: bold;
   }
 }
 
@@ -42,12 +42,6 @@ html {
   font-size: 16px;
 
   a {
-    text-decoration: none;
-    color: white;
     padding-right: 5px;
-  }
-
-  a:hover {
-    color: #5bc0eb;
   }
 }

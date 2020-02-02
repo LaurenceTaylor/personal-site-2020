@@ -1,51 +1,45 @@
 html {
   height: 100%;
-  background-image: url("../assets/backgrounds/1.gif");
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .content {
+  font-family: helvetica, sans-serif;
+  color: white;
   background-color: black;
   padding: 20px;
   margin-top: 5%;
-  margin-left: 20%;
-  margin-right: -20px;
-  border: 5px solid #5bc0eb;
+  margin-left: 8.09%;
+  margin-right: -10px;
+}
+.content a {
+  color: white;
+  text-decoration: none;
+}
+.content a:hover {
+  color: #fde74c;
 }
 
 .title {
-  font-family: helvetica, sans-serif;
   font-weight: bold;
-  color: white;
   font-size: 20px;
 }
 
 .description {
-  font-family: helvetica, sans-serif;
-  color: white;
   font-size: 16px;
 }
 .description a {
-  text-decoration: none;
-  color: white;
   font-weight: bold;
-}
-.description a:hover {
-  color: #5bc0eb;
 }
 
 .social-media-icons {
   font-size: 16px;
 }
 .social-media-icons a {
-  text-decoration: none;
-  color: white;
   padding-right: 5px;
-}
-.social-media-icons a:hover {
-  color: #5bc0eb;
 }
 
 /*# sourceMappingURL=index.css.map */
