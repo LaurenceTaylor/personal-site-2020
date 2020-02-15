@@ -1,11 +1,11 @@
 const numberOfBackgrounds = 6;
 
-const setBackgroundImage = () => {
-    const html = document.querySelector('html');
+const setBackground = () => {
+    const video = document.querySelector('#bg-video');
     const randomNumber = Math.floor(Math.random() * numberOfBackgrounds) + 1;
-    html.style.backgroundImage = `url(./assets/backgrounds/${randomNumber}.gif)`
+    video.setAttribute('src', `./assets/backgrounds/${randomNumber}.mp4`);
 }
 
 window.onload = () => {
-    setBackgroundImage();
-};
+    setBackground();
+}
