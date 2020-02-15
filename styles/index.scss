@@ -1,12 +1,21 @@
 html {
-  height: 100%;
+  // height: 100%;
   background-color: black;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center center;
+}
+
+#bg {
+  position: fixed;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .content {
+  position: relative;
   font-family: helvetica, sans-serif;
   color: white;
   background-color: black;
