@@ -1,10 +1,10 @@
-const NUMBER_OF_BACKGROUNDS = 6;
+const NUMBER_OF_BACKGROUNDS = 5;
 
 let backgroundNumber = Math.floor(Math.random() * NUMBER_OF_BACKGROUNDS);
 
 const setBackground = backgroundNumber => {
-  const video = document.querySelector("#bg-video");
-  video.setAttribute("src", `./assets/backgrounds/${backgroundNumber}.mp4`);
+  const bg = document.querySelector("#bg");
+  bg.setAttribute("src", `./assets/backgrounds/${backgroundNumber + 1}.jpg`);
 };
 
 const rotateBackground = () => {
